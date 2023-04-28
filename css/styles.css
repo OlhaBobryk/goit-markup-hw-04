@@ -392,8 +392,16 @@ header {
     background-color: var(--leading-color);
     padding: 100px 0;
 }
+.footer-container {
+    display: flex;
+    align-items: baseline;
+    gap: 120px;
+}
 .footer-span {
     color: #f4f4fd;
+}
+.footer-left-side {
+
 }
 .footer-logo {
     display: inline-block;
@@ -414,6 +422,20 @@ header {
     text-transform: none;
     color: var(--light-cground-clr);
     max-width: 264px;
+}
+.footer-right-side {
+
+}
+.footer-nw-list {
+    
+}
+.footer-social-nw {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slogan-text-clr);
+    margin-bottom: 16px;
 }
 .portfolio-section {
     padding: 96px 0 120px;
