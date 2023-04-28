@@ -133,7 +133,15 @@ header {
     padding-top: 188px;
     padding-bottom: 188px;
     min-width: 497px;
-    
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleoffice.jpg);
+    background-size: cover;
+    background-position: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
 }
 /*перенос?*/
 .hero-container {
@@ -204,6 +212,20 @@ header {
 .features-item {
     width: calc((100% - 48px) / 3);
 }
+.features-visual {
+    background: #f4f4fd;
+    border-radius: 4px;
+    height: 112px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.features-svg {
+    height: 64px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .features-title {
     font-size: 20px;
     font-weight: 500;
@@ -267,6 +289,7 @@ header {
     width: calc((100% - 72px) / 4);
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .member-vsjob {
     padding: 32px 16px;
@@ -292,6 +315,31 @@ header {
     letter-spacing: 0.02em;
     text-transform: none;
     color: var(--text-description-color);
+}
+.member-networks-list {
+    margin-top: 8px;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+.member-nw-item {
+
+}
+.member-link {
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
+.member-link:hover,
+.member-link:focus {background-color: var(--nav-link-clr-active);
+
+}
+.nw-svg {
+    fill: var(--light-cground-clr);
 }
 
 /*footer 1 p section*/
