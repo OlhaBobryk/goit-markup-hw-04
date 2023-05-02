@@ -59,11 +59,13 @@ header {
     border-bottom-color: #E7E9FC;
     border-bottom-style: solid;
     border-bottom-width: 1px;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .header-navigation {
