@@ -405,7 +405,7 @@ header {
     color: #f4f4fd;
 }
 .footer-left-side {
-    margin-right: 120px:
+    margin-right: 120px;
 }
 .footer-logo {
     display: inline-block;
@@ -433,7 +433,7 @@ header {
 .footer-nw-list {
     margin-top: 8px;
     display: flex;
-    gap: 24px;
+    gap: 16px;
     justify-content: center;
 }
 .footer-social-nw {
