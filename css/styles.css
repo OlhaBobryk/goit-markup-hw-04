@@ -427,7 +427,10 @@ header {
 
 }
 .footer-nw-list {
-    
+    margin-top: 8px;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
 }
 .footer-social-nw {
     font-weight: 500;
@@ -436,6 +439,21 @@ header {
     letter-spacing: 0.02em;
     color: var(--slogan-text-clr);
     margin-bottom: 16px;
+}
+.footer-social-item {
+
+}
+.footer-social-link {
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
+.footer-social-svg {
+    fill: var(--light-cground-clr);
 }
 .portfolio-section {
     padding: 96px 0 120px;
