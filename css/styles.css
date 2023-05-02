@@ -10,6 +10,7 @@ font-family: 'Roboto', sans-serif;*/
 --background-color: #E5E5E5;
 --light-text-clr: #E5E5E5;
 --navhover-btn-clr: #E7E9FC;
+--color-for-tablink: #8e8f99;
 } 
 
 body { 
@@ -295,6 +296,7 @@ header {
 }
 .member-vsjob {
     padding: 32px 16px;
+    padding: 32px 0;
 }
 .member-name {
     font-size: 20px;
@@ -352,11 +354,11 @@ header {
 .customers-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11;
+    line-height: 1.1;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
-    color: var(--dark-color);
+    color: var(--leading-color);
     margin-bottom: 72px;
 }
 .customers-list {
@@ -376,7 +378,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #afb1b8;
+    color: var(--color-for-tablink)
 }
 .tab-link:hover,
 .tab-link:focus {
