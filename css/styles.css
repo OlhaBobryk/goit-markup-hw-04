@@ -224,11 +224,7 @@ header {
     justify-content: center;
     align-items: center;
 }
-.features-svg {
-    height: 64px;
-    margin-left: auto;
-    margin-right: auto;
-}
+.features-svg {}
 .features-title {
     font-size: 20px;
     font-weight: 500;
@@ -399,7 +395,6 @@ header {
 .footer-container {
     display: flex;
     align-items: baseline;
-    gap: 120px;
 }
 .footer-span {
     color: #f4f4fd;
@@ -431,7 +426,6 @@ header {
 
 }
 .footer-nw-list {
-    margin-top: 8px;
     display: flex;
     gap: 16px;
     justify-content: center;
