@@ -422,9 +422,7 @@ header {
     color: var(--light-cground-clr);
     max-width: 264px;
 }
-.footer-right-side {
-
-}
+.footer-right-side {}
 .footer-nw-list {
     display: flex;
     gap: 16px;
